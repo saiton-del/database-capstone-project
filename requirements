@@ -1,0 +1,38 @@
+database-capstone-project/
+├── requirements/
+│   ├── project_requirements.md
+│   └── er_diagram.png
+├── migrations/
+│   ├── V1__core_tables.sql
+│   ├── V2__indexes.sql
+│   ├── V3__audit_and_triggers.sql
+│   ├── V4__row_level_security.sql
+│   └── V5__seed_demo_data.sql
+├── nosql/
+│   ├── mongodb_design.md
+│   ├── redis_design.md
+│   └── nosql_setup.md
+├── optimization/
+│   ├── analytical_queries.sql
+│   ├── before_explain.md
+│   ├── after_explain.md
+│   └── optimization_report.md
+├── security/
+│   ├── roles_and_permissions.sql
+│   ├── rls_policies.sql
+│   ├── audit_implementation.sql
+│   └── security_report.md
+├── backups/
+│   ├── backup_script.sh
+│   ├── restore_commands.sh
+│   └── backup_verification.md
+├── presentation/
+│   ├── architecture.md
+│   ├── project_walkthrough.md
+│   └── demo_script.md
+├── docs/
+│   ├── architecture_diagram.png
+│   ├── data_dictionary.md
+│   ├── lessons_learned.md
+│   └── final_report.md
+└── README.md
